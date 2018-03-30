@@ -1,0 +1,23 @@
+.link_button {
+  width: 33vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 18pt;
+  font-weight: bold;
+  transition: all ease-out 0.5s;
+  cursor: pointer;
+  text-decoration: none;
+  box-sizing: border-box;
+  background: linear-gradient(transparent, transparent);    
+}
+
+.link_button:hover {
+  color: black;
+}
+
+.link_button--selected {
+  border-bottom: solid 3px black;
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Megrim');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Megrim', sans-serif;
+  background: #F7F7F3;
+}
+
+.caps {
+  text-transform: capitalize;
+}

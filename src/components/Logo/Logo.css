@@ -1,0 +1,43 @@
+div {
+  box-sizing: border-box;
+}
+
+.logo {
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: white;
+  color: #dcebe6;
+  padding: 8px;
+  transition: all ease-out 0.5s;
+  cursor: pointer;
+}
+
+.logo:hover {
+  color: white;
+  background: #dcebe6;
+}
+
+.logo__outer {
+  border-left: 4px solid;
+  border-bottom: 4px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.logo__cell {
+  height: 5vh;
+  width: 5vh;
+  border-top: 4px solid;
+  border-left: 4px solid;
+  border-bottom: 4px solid;
+  /* border-bottom: 12px solid white;
+  border-left: 12px solid white;
+  border-top: 12px solid white; */
+}
+
