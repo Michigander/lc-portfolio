@@ -1,11 +1,16 @@
 .header {
-  height: 33vh; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 10vh; 
+  width: 100vw;
   display: flex; 
-  flex-direction: column;
-  justify-content: end;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
   background-image: url(https://www.dropbox.com/s/4nqrcobal29rqoe/lc-print4.JPG?raw=1);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  filter: opacity(0.5);
 }

@@ -1,0 +1,5 @@
+.about__card {
+  border: solid 4px white;
+  min-height: 500px;
+  width: 50vw;
+}

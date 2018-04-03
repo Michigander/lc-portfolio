@@ -19,5 +19,5 @@
 }
 
 .link_button--selected {
-  border-bottom: solid 3px black;
+  color: black;
 }

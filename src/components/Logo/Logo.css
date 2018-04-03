@@ -8,16 +8,15 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: white;
-  color: #dcebe6;
+  background: transparent;
+  color: white;
   padding: 8px;
   transition: all ease-out 0.5s;
   cursor: pointer;
 }
 
 .logo:hover {
-  color: white;
-  background: #dcebe6;
+  color: black;
 }
 
 .logo__outer {
