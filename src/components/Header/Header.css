@@ -2,11 +2,11 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 10vh; 
+  height: 15vh; 
   width: 100vw;
   display: flex; 
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   background-image: url(https://www.dropbox.com/s/4nqrcobal29rqoe/lc-print4.JPG?raw=1);
   background-position: bottom;

@@ -12,8 +12,8 @@ export default LinkButton
 
 const classNames = {
   base: (isSelected) => `
+    caps
     link_button 
     ${isSelected && 'link_button--selected'}
-    caps
   `
 }

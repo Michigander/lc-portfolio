@@ -5,21 +5,23 @@
 }
 
 .art__card {
-  width: 50vw;
-  border: solid 4px white;  
+  width: 90vw;
+  max-width: 500px;
   align-items: start;
 }
 
 .art__photo_wrap {
-  min-height: 150px;
 }
 
 .art__title {
   min-height: 50px;
   display: flex;
   align-items: center;
-  font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  width: 100%;
+  background: white;
+  padding: 4px;
 }
 
 .art__description {

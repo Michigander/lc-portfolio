@@ -5,11 +5,6 @@ const artworks = [
     description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
   },
   {
-    src: 'https://www.dropbox.com/s/6y2664tuvvfr3va/lc-print1.JPG?raw=1',
-    title: 'one',
-    description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
-  },
-  {
     src: 'https://www.dropbox.com/s/mq5efyhrz7u9b84/lc-print2.JPG?raw=1',
     title: 'two',
     description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
@@ -20,7 +15,7 @@ const artworks = [
     description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
   },
   {
-    src: 'https://www.dropbox.com/s/khc2iops6exz5iq/lc-print4.JPG?raw=1',
+    src: 'https://www.dropbox.com/s/4nqrcobal29rqoe/lc-print4.JPG?raw=1',
     title: 'four',
     description: '',
   },
@@ -68,6 +63,11 @@ const artworks = [
     src: 'https://www.dropbox.com/s/o3n31quzar2rnw2/lc-print14.JPG?raw=1',
     title: 'fourteen',
     description: '',
+  },
+  {
+    src: 'https://www.dropbox.com/s/6y2664tuvvfr3va/lc-print1.JPG?raw=1',
+    title: 'one',
+    description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
   },
 ]
 

@@ -5,17 +5,19 @@
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 18pt;
-  font-weight: bold;
-  transition: all ease-out 0.5s;
+  transition: all ease-out 0.3s;
   cursor: pointer;
-  text-decoration: none;
   box-sizing: border-box;
   background: linear-gradient(transparent, transparent);    
+  font-size: 12pt;
+  font-weight: bold;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .link_button:hover {
-  color: black;
+  transform: scale(1.1);
 }
 
 .link_button--selected {

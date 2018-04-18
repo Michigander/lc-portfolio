@@ -16,9 +16,6 @@ const Art = () =>
           <div className="art__title">
             { title }
           </div>
-          <div className="art__description">
-            { description }
-          </div>
         </Card>
     )}
   </Page>

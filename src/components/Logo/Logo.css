@@ -4,7 +4,7 @@ div {
 
 .logo {
   height: 10vh;
-  width: 10vh;
+  width: 12vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,6 +14,19 @@ div {
   transition: all ease-out 0.5s;
   cursor: pointer;
 }
+
+.logo__svg {
+  stroke: black;
+  stroke-width: 50;
+  fill: #F7F7F3;
+  fill-opacity: 0.25;
+  height: 75%;
+  transition: all 0.3s;
+} 
+
+.logo__svg:hover {
+  fill-opacity: 1.0;
+} 
 
 .logo:hover {
   color: black;
