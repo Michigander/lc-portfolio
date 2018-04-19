@@ -5,13 +5,13 @@ import RamblingFarmhouse from './assets/RamblingFarmhouse-PresentationBoard.pdf'
 
 const artworks = [
   {
-    title: 'Printmaking Collagraphy',
+    title: 'Collagraph Prints',
     artifacts: [
       'https://drive.google.com/uc?id=1MULmqQ8Y-87beaDdDdQCxNW_ICFsOYK2',
-      'https://drive.google.com/uc?id=1luIR4uS3anbOjmWZOp5_BqWl31iqcZTq',
       'https://drive.google.com/uc?id=1MgkTRJNZf-CohXtoOIDeALs6zlj_iutK',
-      'https://drive.google.com/uc?id=1d_hH5UlwT5GOgwLeJujOEksM21ZH8bQL',
       'https://drive.google.com/uc?id=16KVZ77zB6TxRAwxG4gXWVzHc0uYUSNX4',
+      'https://drive.google.com/uc?id=1d_hH5UlwT5GOgwLeJujOEksM21ZH8bQL',
+      'https://drive.google.com/uc?id=1luIR4uS3anbOjmWZOp5_BqWl31iqcZTq',
     ]
   },
   {
