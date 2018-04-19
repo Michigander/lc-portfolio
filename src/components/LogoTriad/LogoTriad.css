@@ -2,7 +2,7 @@
   height: 100%;
   font-size: 16pt;
   display: grid;
-  grid-template-columns: calc(100px - 20px) auto;
+  grid-template-columns: 80px auto;
   grid-template-rows: repeat(2, 1fr);
   grid-column-gap: 15px;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Route, Switch } from 'react-router-dom'
+import { HashRouter, Route, Switch, Redirect } from 'react-router-dom'
 
 import './App.css'
 
@@ -11,7 +11,7 @@ import Yoga from 'components/Yoga/Yoga.jsx'
 const App = () => 
   <HashRouter>
     <Switch>
-      <Route path="/" exact component={Home} />
+      <Route path="/" exact render={() => <Redirect to="/about" />} />
       <Route path="/about" exact component={About} />
       <Route path="/yoga" exact component={Yoga} />
       <Route path="/art" exact component={Art} />      

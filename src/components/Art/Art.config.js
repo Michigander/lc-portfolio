@@ -1,3 +1,8 @@
+import WinterStudy from './assets/WinterStudyPoster.pdf'
+import ArthurRoss from './assets/ArthurRoss-compilation.pdf'
+import FAIA from './assets/FAIASubmission-JohnTittman.pdf'
+import RamblingFarmhouse from './assets/RamblingFarmhouse-PresentationBoard.pdf'
+
 const artworks = [
   {
     src: 'https://www.dropbox.com/s/ddzjgl41qu16xf8/lc-print7.JPG?raw=1',
@@ -69,6 +74,26 @@ const artworks = [
     title: 'one',
     description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
   },
+  {
+    src: WinterStudy,
+    extension: 'pdf',
+    title: 'Winter Study Promo'    
+  },
+  {
+    src: ArthurRoss,
+    extension: 'pdf',
+    title: 'Arthur Ross Compilation'    
+  },
+  {
+    src: RamblingFarmhouse,
+    extension: 'pdf',
+    title: 'Rambling Farmhouse Presentation'    
+  },
+  {
+    src: FAIA,
+    extension: 'pdf',
+    title: 'FAIA Application'
+  }
 ]
 
 export default artworks

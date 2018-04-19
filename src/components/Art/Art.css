@@ -29,3 +29,11 @@
   width: 100%;
   overflow-wrap: break-word;
 }
+
+.react-pdf__Page__canvas {
+  width: 90vw !important;
+  max-width: 500px !important;
+  height: unset !important;
+  margin: 8px;
+  padding: 8px;
+}
