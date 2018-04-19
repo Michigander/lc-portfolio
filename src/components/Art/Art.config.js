@@ -5,95 +5,48 @@ import RamblingFarmhouse from './assets/RamblingFarmhouse-PresentationBoard.pdf'
 
 const artworks = [
   {
-    src: 'https://www.dropbox.com/s/ddzjgl41qu16xf8/lc-print7.JPG?raw=1',
-    title: 'seven',
-    description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
+    title: 'Printmaking Collagraphy',
+    artifacts: [
+      'https://drive.google.com/uc?id=1MULmqQ8Y-87beaDdDdQCxNW_ICFsOYK2',
+      'https://drive.google.com/uc?id=1luIR4uS3anbOjmWZOp5_BqWl31iqcZTq',
+      'https://drive.google.com/uc?id=1MgkTRJNZf-CohXtoOIDeALs6zlj_iutK',
+      'https://drive.google.com/uc?id=1d_hH5UlwT5GOgwLeJujOEksM21ZH8bQL',
+      'https://drive.google.com/uc?id=16KVZ77zB6TxRAwxG4gXWVzHc0uYUSNX4',
+    ]
   },
   {
-    src: 'https://www.dropbox.com/s/mq5efyhrz7u9b84/lc-print2.JPG?raw=1',
-    title: 'two',
-    description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
+    title: 'Architectural Sketches',
+    artifacts: [
+      'https://drive.google.com/uc?id=1GwuN66ep4lEIhdC21_dwoynD4LqKfQuh',
+      'https://drive.google.com/uc?id=1tYuLzbFWCVATKAv6UTmIN0J5JdtCtmXK',
+      'https://drive.google.com/uc?id=1mrkL9stUmJ7jN4_7Q9AcO7W4sY6gjlPv',
+      'https://drive.google.com/uc?id=1CEafiOkpwl6L34BpWvPQqk9Yf5V8fDel',
+    ]
   },
   {
-    src: 'https://www.dropbox.com/s/ad9i8a2qhdoi834/lc-print3.JPG?raw=1',
-    title: 'three',
-    description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
+    title: 'Portraiture',
+    artifacts: [
+      'https://drive.google.com/uc?id=1r7nLAu6-nFKxVsoIEe8qPQqutzSVlXs4',
+      'https://drive.google.com/uc?id=1uSVlrN-5JvFtju93bKe_C6mTHeBx5sHL',
+      'https://drive.google.com/uc?id=1Q0WX56Zvux63uE5SS5WUeZXl3w-V7P2B',
+      'https://drive.google.com/uc?id=1VFXoyfTXhBG4iwLlQKJpG1KfqiwzDFW0',
+      'https://drive.google.com/uc?id=1uQiAEM-ehK1IwrKytWL_Sla4R0LPVAZ8',
+      'https://drive.google.com/uc?id=1Ggj3ClogBPMfXHfIYs-JCp1GK2AclsGA',
+      'https://drive.google.com/uc?id=1EAa7FIITN07SRYkL_EQIgpI3w-qHGzYj',
+      'https://drive.google.com/uc?id=1955O6vwBgXPZXAohk5QepZxP99yqP2ax',
+      'https://drive.google.com/uc?id=1GgQiBv_N03NJ-pISXyJxPztzCb0YW3cY',
+    ]
   },
   {
-    src: 'https://www.dropbox.com/s/4nqrcobal29rqoe/lc-print4.JPG?raw=1',
-    title: 'four',
-    description: '',
+    title: 'Digital',
+    type: 'pdf',
+    artifacts: [
+      WinterStudy,
+      ArthurRoss,
+      RamblingFarmhouse,
+      FAIA
+    ]
   },
-  {
-    src: 'https://www.dropbox.com/s/m8537wm54o0e8l3/lc-print5.JPG?raw=1',
-    title: 'five',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/lhpim4kwm3t0nu8/lc-print6.JPG?raw=1',
-    title: 'six',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/phonskqe46j9yuv/lc-print8.JPG?raw=1',
-    title: 'eight',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/1sqnvn9zb6irkd3/lc-print9.JPG?raw=1',
-    title: 'nine',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/p565teicr7c691b/lc-print10.JPG?raw=1',
-    title: 'ten',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/5yc01bxhu53okhv/lc-print11.JPG?raw=1',
-    title: 'eleven',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/r8j72byqom692fb/lc-print12.JPG?raw=1',
-    title: 'twelve',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/2iz8b2doy5em0fw/lc-print13.JPG?raw=1',
-    title: 'thirteen',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/o3n31quzar2rnw2/lc-print14.JPG?raw=1',
-    title: 'fourteen',
-    description: '',
-  },
-  {
-    src: 'https://www.dropbox.com/s/6y2664tuvvfr3va/lc-print1.JPG?raw=1',
-    title: 'one',
-    description: 'dfajksdkfjbaskdjbkjbsdfadsjkbfkajsdflkajsdlkfjalsdkflaksdjflasldkfjalskdjflaksdjfl',
-  },
-  {
-    src: WinterStudy,
-    extension: 'pdf',
-    title: 'Winter Study Promo'    
-  },
-  {
-    src: ArthurRoss,
-    extension: 'pdf',
-    title: 'Arthur Ross Compilation'    
-  },
-  {
-    src: RamblingFarmhouse,
-    extension: 'pdf',
-    title: 'Rambling Farmhouse Presentation'    
-  },
-  {
-    src: FAIA,
-    extension: 'pdf',
-    title: 'FAIA Application'
-  }
 ]
 
 export default artworks

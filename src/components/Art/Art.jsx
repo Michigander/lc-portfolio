@@ -26,13 +26,17 @@ class Pdf extends Component {
   }
 }
 
+const TitleCard = ({title}) => 
+  <Card>
+    <div className="art__title">
+      { title }
+    </div>
+  </Card>
+
 const ImgCard = ({ src, title, description}) => 
   <Card className="art__card">
     <div className="art__photo_wrap">
       <img className="art__photo" alt='' src={src} />
-    </div>
-    <div className="art__title">
-      { title }
     </div>
   </Card>
 
@@ -43,10 +47,12 @@ const PdfCards = ({ src, title, description }) =>
   
 const Art = () =>
   <LcPage>
-    { map(artworks, ({extension, ...artwork}) => 
-        extension === "pdf" 
-          ? <PdfCards {...artwork} key={artwork.title} />
-          : <ImgCard {...artwork} key={artwork.title} />
+    { map(artworks, ({title, type, artifacts}) => (
+        [
+          <TitleCard title={title} />,
+          ...artifacts.map((src, index) => type === "pdf" ? <PdfCards src={src} key={`${title}-${index}`} /> : <ImgCard src={src} key={`${title}-${index}`} />)
+        ]
+      )
     )}
   </LcPage>
 
