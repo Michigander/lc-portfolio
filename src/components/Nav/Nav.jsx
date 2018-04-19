@@ -7,9 +7,8 @@ import './Nav.css'
 
 const Nav = ({ location: { pathname } }) => 
   <div className="nav">
-    <LinkButton to="/art" pathname={pathname}>art</LinkButton>
     <LinkButton to="/about" pathname={pathname}>about</LinkButton>
-    <LinkButton to="/yoga" pathname={pathname}>yoga</LinkButton>    
+    <LinkButton to="/art" pathname={pathname}>portfolio</LinkButton>
   </div>
 
 export default withRouter(Nav)

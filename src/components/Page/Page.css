@@ -10,11 +10,3 @@
   margin-top: 20vh;
   padding: 16px;
 }
-
-.page__name {
-  color: #0e0c0c;
-  font-size: 18pt;
-  /* font-weight: bold; */
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-}
