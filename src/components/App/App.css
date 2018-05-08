@@ -62,7 +62,7 @@
     padding: 8px;
   }
 
-  .App__header-logo-container {
+  /* .App__header-logo-container {
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
@@ -71,7 +71,7 @@
   .App__header-title {
     margin-left: 12px;
     margin-top: 0;
-  }
+  } */
 
   .App__header-logo {
     height: 48px;
@@ -79,7 +79,7 @@
   }
 }
 
-@media (max-height: 650px) {
+@media (max-height: 400px) {
   .App__header {
     padding: 8px;
   }

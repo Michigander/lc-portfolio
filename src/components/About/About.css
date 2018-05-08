@@ -13,7 +13,6 @@
   top: 0;
   height: 100%;
   max-width: 500px;
-  min-width: 350px;
   padding: 24px;
   line-height: 1.5rem;
   text-indent: 2.5em each-line;
@@ -35,5 +34,13 @@ div.About__card > p > a {
 @media (max-height: 650px) {
   .About__card {
     justify-content: flex-start;
+  }
+}
+@media (max-width: 400px) {
+  .About {
+    padding: 0px;
+  }
+  .About__card {
+    padding: 16px;
   }
 }
