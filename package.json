@@ -2,7 +2,7 @@
   "name": "lc-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://0bey.github.io/lc-portfolio",
+  "homepage": "https://lc-portfolio.github.io",
   "dependencies": {
     "react": "^16.2.0",
     "react-dom": "^16.2.0",

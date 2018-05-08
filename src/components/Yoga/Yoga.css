@@ -1,5 +1,24 @@
-.yoga__card {
-  border: solid 4px white;
-  min-height: 500px;
-  width: 50vw;
+.Yoga {
+  height: 60vh;
+  background-image: url(https://drive.google.com/uc?id=1bWKvaoM1psuIj3Zg4uH9nv3KD2puCS6O);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.Yoga__card {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 400px;
+  min-width: 350px;
+  padding: 8px;
+  line-height: 1.5rem;
+  text-indent: 2.5em each-line;
+  overflow: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sea);
+  background: rgba(100%, 100%, 100%, 0.796);
 }

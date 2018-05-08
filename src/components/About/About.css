@@ -1,5 +1,18 @@
-.about__card {
-  border: solid 4px white;
-  min-height: 500px;
-  width: 50vw;
+.About {
+  height: 60vh;
+  background-image: url(https://drive.google.com/uc?id=0Bw5fMNSAnPnJbHRUd09veGdIbjg);
+  background-size: cover;
+}
+
+.About__card {
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--sea);
+  background: rgba(100%, 100%, 100%, 0.796);
 }

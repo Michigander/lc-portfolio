@@ -3,14 +3,49 @@
 /* @import url('https://fonts.googleapis.com/css?family=Poiret+One'); */
 /* @import url('https://fonts.googleapis.com/css?family=Dosis'); */
 @import url('https://fonts.googleapis.com/css?family=Oswald');
+
+@font-face {
+  font-family: 'Nero';
+  src: url(./assets/avenir-next-regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Nero Bold';
+  src: url(./assets/avenir-next-bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Nero Thin';
+  src: url(./assets/avenir-next-thin.woff) format('woff');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --sea: #636b75;
+  --seafoam: #a3a6ab;
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Nero', sans-serif;
   font-weight: 200;
   background: #F7F7F3;
+  color: var(--sea);
 }
 
 .caps {
   text-transform: capitalize;
+}
+
+.bold {
+  font-family: 'Nero Bold';
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
 }
