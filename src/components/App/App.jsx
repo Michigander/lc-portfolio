@@ -1,5 +1,5 @@
 import React from 'react'
-import { HashRouter, Route, NavLink } from 'react-router-dom'
+import { HashRouter, Route, NavLink, Link } from 'react-router-dom'
 
 import './App.css'
 import LOGO from 'components/Logo/LOGO.png'
@@ -40,10 +40,12 @@ const App = () =>
     <div className="App">
       <div className="App__header">
         <div className="App__header-logo-container">
-          <img alt="Lauren's emblem" src={LOGO} className="App__header-logo" />
-          <div className="App__header-title caps">
-            LAUREN <span className="bold">CASEY</span>
-          </div>
+          <Link to="/" className="App__header-logo-container link">
+            <img alt="Lauren's emblem" src={LOGO} className="App__header-logo" />
+            <div className="App__header-title caps">
+              LAUREN <span className="bold">CASEY</span>
+            </div>
+          </Link>
         </div>
       </div>
       { routes.map(route =>

@@ -42,19 +42,25 @@ const ImgCard = ({ src, title, description}) =>
 
 const PdfCards = ({ src, title, description }) => 
   <Pdf file={src}>
-    { template => template.map((_, index) => <Page key={index} renderTextLayer={false} pageIndex={index} /> ) }
+    { template => template.map((_, index) => 
+        <Page key={index} renderTextLayer={false} pageIndex={index} /> 
+    )}
   </Pdf>
   
 const Art = () =>
-  <LcPage>
-    { map(artworks, ({title, type, artifacts}) => (
-        [
-          <TitleCard title={title} />,
-          ...artifacts.map((src, index) => type === "pdf" ? <PdfCards src={src} key={`${title}-${index}`} /> : <ImgCard src={src} key={`${title}-${index}`} />)
-        ]
-      )
+  <div className="Art">
+    { artworks.map(datum => 
+        <div className="Art__section">
+          <div className="Art__section-title">
+            { datum.title }
+          </div>
+          { datum.artifacts.map((src, index) => datum.type === "pdf"
+              ? <PdfCards src={src} key={`${datum.type}-${index}`} />
+              : <ImgCard src={src} key={`${datum.type}-${index}`} />
+          )}  
+        </div>
     )}
-  </LcPage>
+  </div>
 
 export default Art
 

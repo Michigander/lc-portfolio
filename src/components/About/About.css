@@ -1,7 +1,10 @@
 .About {
-  height: 60vh;
+  height: 100%;
   background-image: url(https://drive.google.com/uc?id=0Bw5fMNSAnPnJbHRUd09veGdIbjg);
   background-size: cover;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
 }
 
 .About__card {
@@ -9,10 +12,28 @@
   left: 0;
   top: 0;
   height: 100%;
-  width: 100%;
+  max-width: 500px;
+  min-width: 350px;
+  padding: 24px;
+  line-height: 1.5rem;
+  text-indent: 2.5em each-line;
+  text-align: center;
+  letter-spacing: 0.2rem;
   display: flex;
   align-items: center;
+  overflow: auto;
   justify-content: center;
   color: var(--sea);
   background: rgba(100%, 100%, 100%, 0.796);
+  flex-direction: column;
+}
+
+div.About__card > p > a {
+  color: inherit;
+}
+
+@media (max-height: 650px) {
+  .About__card {
+    justify-content: flex-start;
+  }
 }

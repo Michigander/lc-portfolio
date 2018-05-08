@@ -2,5 +2,11 @@
   background-image: url(https://drive.google.com/uc?id=0Bw5fMNSAnPnJbHRUd09veGdIbjg);
   background-size: cover;
   opacity: 0.75;
-  height: 60vh;
+  grid-row: 2 / 3;
+}
+
+.Landing__link {
+  height: 100%;
+  width: 100%;
+  display: block;
 }
