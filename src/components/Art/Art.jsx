@@ -1,11 +1,9 @@
 import React, { Component } from 'react'
-import { map } from 'lodash'
 import { Document, Page } from 'react-pdf/dist/entry.webpack';
 
-import './Art.css'
 import artworks from './Art.config.js'
 import Card from 'components/Card/Card.jsx'
-import LcPage from 'components/Page/Page.jsx'
+import './Art.css'
 
 class Pdf extends Component {
   state = {
@@ -25,13 +23,6 @@ class Pdf extends Component {
     )
   }
 }
-
-const TitleCard = ({title}) => 
-  <Card>
-    <div className="art__title">
-      { title }
-    </div>
-  </Card>
 
 const ImgCard = ({ src, title, description}) => 
   <Card className="art__card">

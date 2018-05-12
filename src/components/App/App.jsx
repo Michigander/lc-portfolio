@@ -2,14 +2,12 @@ import React from 'react'
 import { HashRouter, Route, NavLink, Link } from 'react-router-dom'
 
 import './App.css'
-import LOGO from 'components/Logo/LOGO.png'
+import LOGO from 'assets/LOGO.png'
 
 import Art from 'components/Art/Art.jsx'
 import About from 'components/About/About.jsx'
 import Yoga from 'components/Yoga/Yoga.jsx'
 import Landing from 'components/Landing/Landing.jsx'
-import Logo from 'components/Logo/Logo.jsx'
-import AppFooter from 'components/Footer/Footer.jsx'
 
 const routes = [
   {
