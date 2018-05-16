@@ -38,7 +38,7 @@ const App = () =>
     <div className="App">
       <div className="App__header">
         <div className="App__header-logo-container">
-          <Link to="/" className="App__header-logo-container link">
+          <Link to="/about" className="App__header-logo-container link">
             <img alt="Lauren's emblem" src={LOGO} className="App__header-logo" />
             <div className="App__header-title caps">
               LAUREN <span className="bold">CASEY</span>
