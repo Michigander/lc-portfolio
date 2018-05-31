@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Document, Page } from 'react-pdf/dist/entry.webpack';
+import { Link } from 'react-router-dom';
 
 import artworks from './Art.config.js'
 import Card from 'components/Card/Card.jsx'
@@ -26,9 +27,11 @@ class Pdf extends Component {
 
 const ImgCard = ({ src, title, description}) => 
   <Card className="art__card">
-    <div className="art__photo_wrap">
-      <img className="art__photo" alt='' src={src} />
-    </div>
+    <a href={src} className="art__card-link">
+      <div className="art__photo_wrap">
+        <img className="art__photo" alt='' src={src} />
+      </div>
+    </a>
   </Card>
 
 const PdfCards = ({ src, title, description }) => 

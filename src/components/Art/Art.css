@@ -34,7 +34,9 @@
   align-items: start;
 }
 
-.art__photo_wrap {
+.art__card-link {
+  height: 100%;
+  width: 100%;
 }
 
 .art__title {

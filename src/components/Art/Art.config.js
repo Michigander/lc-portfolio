@@ -5,6 +5,20 @@ import RamblingFarmhouse from './assets/RamblingFarmhouse-PresentationBoard.pdf'
 
 const artworks = [
   {
+    title: 'Clothing Design',
+    artifacts: [
+      'https://drive.google.com/uc?id=1caej2gMszTc7D2IEdKfSgIMwFjw-ThSj',
+      'https://drive.google.com/uc?id=1Nrjp-T50t5qpBC8u5H-maenxjK-YHQyj',
+      'https://drive.google.com/uc?id=1nREiKyB2py3vrZwJ-Tq5onPEzxgVLuRE',
+      'https://drive.google.com/uc?id=1CaQCFPPqHEcbyxvgpE8Orp_HrwK0creQ',
+      'https://drive.google.com/uc?id=1bYxc5SH0XCCqoxv9iH0M3CmDjNYB5ZHP',
+      'https://drive.google.com/uc?id=1JEsiu68pgqhp1xRU2Sps6PNPB45qzcgk',
+      'https://drive.google.com/uc?id=16sb_xG06c6Qiy91lCgkBGIHwri02f4ki',
+      'https://drive.google.com/uc?id=1XVLbaMqRKsXJd3JBqKhnhMkfmVFF6Kjf',
+      'https://drive.google.com/uc?id=1wZSeGu6FCGQnAlS_R2W4y9pAJr42dXLX',           
+    ]
+  },
+  {
     title: 'Collagraph Prints',
     artifacts: [
       'https://drive.google.com/uc?id=1MULmqQ8Y-87beaDdDdQCxNW_ICFsOYK2',
@@ -37,16 +51,16 @@ const artworks = [
       'https://drive.google.com/uc?id=1GgQiBv_N03NJ-pISXyJxPztzCb0YW3cY',
     ]
   },
-  {
-    title: 'Digital',
-    type: 'pdf',
-    artifacts: [
-      WinterStudy,
-      ArthurRoss,
-      RamblingFarmhouse,
-      FAIA
-    ]
-  },
+  // {
+  //   title: 'Digital',
+  //   type: 'pdf',
+  //   artifacts: [
+  //     WinterStudy,
+  //     ArthurRoss,
+  //     RamblingFarmhouse,
+  //     FAIA
+  //   ]
+  // },
 ]
 
 export default artworks
