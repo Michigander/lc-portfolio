@@ -1,8 +1,3 @@
-import WinterStudy from "./assets/WinterStudyPoster.pdf";
-import ArthurRoss from "./assets/ArthurRoss-compilation.pdf";
-import FAIA from "./assets/FAIASubmission-JohnTittman.pdf";
-import RamblingFarmhouse from "./assets/RamblingFarmhouse-PresentationBoard.pdf";
-
 const artworks = [
   {
     title: "Clothing Design",
