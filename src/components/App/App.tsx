@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, NavLink, Link, Routes } from "react-router-dom";
+import { Route, NavLink, Link, Routes, HashRouter } from "react-router-dom";
 
 import "./App.css";
 
@@ -84,7 +84,7 @@ const routes = [
 ];
 
 const App = () => (
-  <BrowserRouter>
+  <HashRouter>
     <div className="App">
       <div className="App__header">
         <div className="App__header-logo-container">
@@ -111,7 +111,7 @@ const App = () => (
         ))}
       </Routes>
     </div>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
