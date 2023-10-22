@@ -51,9 +51,11 @@ const Art = () => (
     {artworks.map((datum, index) => (
       <div className="Art__section" key={`${datum.title}-${index}`}>
         <div className="Art__section-title">{datum.title}</div>
-        {datum.artifacts.map((src, artIndex) => (
-          <ImgCard src={src} key={`${datum.title}-${index}-${artIndex}`} />
-        ))}
+        <div className="Art__section-grid">
+          {datum.artifacts.map((src, artIndex) => (
+            <ImgCard src={src} key={`${datum.title}-${index}-${artIndex}`} />
+          ))}
+        </div>
       </div>
     ))}
   </div>

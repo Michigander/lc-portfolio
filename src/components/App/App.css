@@ -1,8 +1,8 @@
 .App {
   display: grid;
-  grid-template-rows: 1fr 60vh;
+  grid-template-rows: 1fr 75vh;
   grid-auto-rows: 1fr;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .App__header {
@@ -54,7 +54,7 @@
 }
 
 .App__navlink--active {
-  font-family: 'Nero Bold'
+  font-family: "Nero Bold";
 }
 
 @media (max-width: 400px) {
@@ -65,7 +65,9 @@
   .App__header {
     padding: 8px;
   }
-
+  .App {
+    grid-template-rows: 1fr 70vh;
+  }
   /* .App__header-logo-container {
     flex-direction: row;
     justify-content: flex-start;
